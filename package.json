@@ -1,0 +1,22 @@
+{
+  "name": "daily-exercises",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MohammadWasi/daily-exercises.git"
+  },
+  "author": "Mohammad Wasi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MohammadWasi/daily-exercises/issues"
+  },
+  "homepage": "https://github.com/MohammadWasi/daily-exercises#readme",
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
+}

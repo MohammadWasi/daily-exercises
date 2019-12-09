@@ -44,7 +44,3 @@ function longestCommonSubsequnce(stringA, stringB) {
     longestCommonSubsequnce,
   };
   
-  console.log(longestCommonSubsequnce(
-    ['A', 'B', 'C', 'D', 'G', 'H'],
-    ['A', 'E', 'D', 'F', 'H', 'R'],
-  ))

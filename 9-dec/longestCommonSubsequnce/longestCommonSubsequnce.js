@@ -31,10 +31,8 @@ function longestCommonSubsequnce(stringA, stringB) {
                 columnIndex -= 1;
                 rowIndex -= 1;
               } else if (lcsMatrix[rowIndex][columnIndex] === lcsMatrix[rowIndex][columnIndex - 1]) {
-                // Move left.
                 columnIndex -= 1;
               } else {
-                // Move up.
                 rowIndex -= 1;
               }
     }

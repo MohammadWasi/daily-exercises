@@ -18,5 +18,27 @@
   "homepage": "https://github.com/MohammadWasi/daily-exercises#readme",
   "devDependencies": {
     "jest": "^24.9.0"
+  },
+ "devDependencies": {
+    "@babel/core": "*",
+    "@babel/preset-env": "*",
+    "babel-core": "^7.0.0-bridge",
+    "babel-jest": "*",
+    "eslint": "*",
+    "eslint-config-airbnb": "*",
+    "eslint-plugin-import": "*",
+    "eslint-plugin-jsx-a11y": "*",
+    "eslint-plugin-react": "*",
+    "husky": "*",
+    "jest": "*",
+    "lint-staged": "*"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "!(*.test).js": ["eslint"]
   }
 }

@@ -44,3 +44,5 @@ function longestCommonSubsequnce(stringA, stringB) {
     longestCommonSubsequnce,
   };
   
+//solution taken from Felix Rilling
+//https://github.com/trekhleb/javascript-algorithms/blob/master/src/algorithms/sets/longest-common-subsequence/longestCommonSubsequence.js
